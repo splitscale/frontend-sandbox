@@ -1,6 +1,6 @@
-// def runServer() {
-//   sh 'docker run --name frontend-sandbox --network fordastore -p 3000:3000 -d frontend-sandbox:latest'
-// }
+def runServer() {
+  sh 'docker run --name frontend-sandbox --network fordastore -p 3000:3000 -d frontend-sandbox:latest'
+}
 
 pipeline {
     agent any
